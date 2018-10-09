@@ -100,4 +100,6 @@ function Base64() {
     }
 }
 
-window.jwhuang.base64 = Base64;
+window.jwhuang = {
+	Base64: Base64
+};
